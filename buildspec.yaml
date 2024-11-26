@@ -4,9 +4,9 @@ env:
     SONAR_TOKEN: SONAR_TOKEN:sonartoken
     SNYK_KEY: SNYK_KEY:snykkey
   parameter-store:
-    SONAR_PROJECT: "sonarproject"
-    SONAR_ORG: "sonarorg"
-    SONAR_HOST: "sonarhost"
+    SONAR_PROJECT: "/sonar/sonarproject"
+    SONAR_ORG: "/sonar/sonarorg"
+    SONAR_HOST: "/sonar/sonarhost"
 
 phases:
   install:
